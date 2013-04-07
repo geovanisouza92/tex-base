@@ -1,0 +1,59 @@
+% Package import and configurations
+
+% Suport special characters
+\usepackage[utf8]{inputenc}
+
+% Produce brazilian style for date and names
+\usepackage[brazil]{babel}
+
+% Support for renew text case commands
+\usepackage[overload]{textcase}
+
+% Create navegable hyperlinks in document for summary and references in pdf
+\usepackage[hyperindex=false,pdftex]{hyperref}
+
+% ABNT style for references
+\usepackage[alf,abnt-emphasize=bf,abnt-full-initials=yes,abnt-thesis-year=final,abnt-doi=link,abnt-url-package=hyperref]{abntcite}
+
+% Support for symbols and mathematical expressions
+\usepackage{tabela-simbolos}
+
+% Support for thematic links
+\usepackage[usenames,dvipsnames]{color}
+
+% Embed images in pdf document
+\usepackage[pdftex]{graphicx}
+
+% Define small size font for image legends
+\usepackage[small]{caption}
+
+% Use Times New Roman font
+\usepackage{pslatex}
+
+% Support for epigraphs
+\usepackage{epigraph}
+
+% Support for inter-line spaccing
+\usepackage{setspace}
+
+% Setup for page margins
+\usepackage[top=3cm,left=3cm,right=2cm,bottom=2cm]{geometry}
+
+% Three numbered subsections
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+% Retreat (recuo) 1.5 cm
+\setlength{\parindent}{1.5cm}
+
+% Adjust ABNT font sizes
+\renewcommand{\ABNTchpaterfont}{\bfseries}
+\renewcommand{\ABNTchpatersize}{\large}
+\renewcommand{\ABNTsectionfontsize}{\large}
+\renewcommand{\ABNTsubsectionfontsize}{\large}
+\renewcommand{\ABNTsubsubsectionfontsize}{\large}
+
+% Titles of pre and post-textual chapters
+\renewcommand{\ABNTbibliographyname}{REFER\^ENCIAS BIBLIOGR\'AFICAS}
+\renewcommand{\listofabreviationsname}{LISTA DE SIGLAS}
+\renewcommand{\contentsname}{SUM\'ARIO}
