@@ -1,0 +1,13 @@
+main.pdf
+*.aux
+*.log
+*.lof
+*.lol
+*.lot
+*.out
+*.sig*
+*.sym*
+*.toc
+*.bbl
+*.blg
+*.ilg
